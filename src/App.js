@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Stop Watch</h1>
+      <h1>Stopwatch</h1>
       <p>Time : {formatTime(time)}</p>
       <div style={{display:"flex", gap:"10px", justifyContent:"center"}}>
         
