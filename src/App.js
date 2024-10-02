@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="App">
       <h1>Stopwatch</h1>
-      <p>Time : {formatTime(time)}</p>
-      <div style={{display:"flex", gap:"10px", justifyContent:"center"}}>
+      <p>Time: {formatTime(time)}</p>
+      <div style={{display:"flex", gap:"10px", justifyContent:"start"}}>
         
         {!running && <button onClick={()=>setRunning(true)}>Start</button>}
 
